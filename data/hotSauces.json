@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "Rainbow - BBQ Hot sauce",
+    "price": 13.99,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/files/CarreShopify-PhotoRoom_27_360x.png?v=1683970146",
+    "spiciness": 3,
+    "description" : "A medium spicy BBQ hot sauce from Rainbow. Perfect balance of flavor and heat."
+  },
+  {
+    "id": 1,
+    "name": "Seed Ranch - Umami Reserve",
+    "price": 14.99,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/Captured_ecran2022-11-20a07.43-PhotoRoom_1080x.png?v=1668926623",
+    "spiciness": 4,
+    "description" : "Seed Ranch's Umami Reserve offers a rich, savory flavor with a hot kick."
+  },
+  {
+    "id": 2,
+    "name": "SWET - Sun Burn",
+    "price": 9.90,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/image_1fce1440-87f6-4758-b0ae-7c83e06baa89_1080x.png?v=1668704758",
+    "spiciness": 4,
+    "description" : "SWET's Sun Burn sauce brings a hot, sun-kissed flavor to your dishes."
+  },
+  {
+    "id": 3,
+    "name": "SWET - FUMATA",
+    "price": 9.90,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/image_9a23c38d-1ce7-4270-b6aa-abd6066794e2_1080x.png?v=1668705066",
+    "spiciness": 5,
+    "description" : "Experience the intense heat of SWET's FUMATA. Not for the faint-hearted!"
+  },
+  {
+    "id": 4,
+    "name": "KARMA - Ghost Island",
+    "price": 10.99,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/Captured_ecran2022-11-20a07.58-PhotoRoom_2_1080x.png?v=1668927980",
+    "spiciness": 4,
+    "description" : "KARMA's Ghost Island sauce is hauntingly hot, a thrill for spice lovers."
+  },
+  {
+    "id": 5,
+    "name": "KARMA - Funken Hot",
+    "price": 10.99,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/054a823750083efbaaa59bdf3376b706ebb79a04f6d243df955dca38e3917682-removebg-preview_1080x.png?v=1645116995",
+    "spiciness": 5,
+    "description" : "KARMA's Funken Hot sauce is a fiery delight, sure to ignite your taste buds."
+  },
+  {
+    "id": 6,
+    "name": "Pain is Good - Habanero",
+    "price": 11.75,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/Captured_ecran2021-03-13a10.49.44_1080x.png?v=1615629512",
+    "spiciness": 5,
+    "description" : "Pain is Good's Habanero sauce is a spicy challenge, delivering a potent punch."
+  },
+  {
+    "id": 7,
+    "name": "KARMA - Scorpio Disco",
+    "price": 11.75,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/Captured_ecran2022-11-20a07.58-PhotoRoom_1080x.png?v=1668927606",
+    "spiciness": 5,
+    "description" : "KARMA's Scorpio Disco is a hot dance of flavors, a true test for spice enthusiasts."
+  },
+  {
+    "id": 8,
+    "name": "Tubby Toms's - Honey Butter",
+    "price": 12.99,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/image_e5ce88bd-b1d8-43b1-a009-f1253b388529_1080x.png?v=1680180818",
+    "spiciness": 1,
+    "description" : "Tubby Tom's Honey Butter sauce is a mild, sweet treat for your palate."
+  },
+  {
+    "id": 9,
+    "name": "Bravado - Creamy Herb",
+    "price": 9.99,
+    "photo": "https://cdn.shopify.com/s/files/1/0511/9295/5074/products/image_581ba0b1-4b2b-400f-985c-7665bd82642a_1080x.png?v=1677588649",
+    "spiciness": 2,
+    "description" : "Bravado's Creamy Herb JALAPEÑO sauce offers a mild heat with a burst of herbs."
+  }
+]
