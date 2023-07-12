@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import React, { createContext, useReducer, Dispatch, useEffect } from "react";
 
@@ -82,15 +82,15 @@ interface CartProviderProps {
 export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
   const [state, dispatch] = useReducer(
     cartReducer,
-    [],
-    (initialState: CartState) => {
-      const localState = localStorage.getItem("cart");
-      return localState ? JSON.parse(localState) : initialState;
-    }
+    typeof window !== 'undefined' && localStorage.getItem("cart")
+      ? JSON.parse(localStorage.getItem("cart") || '[]')
+      : []
   );
 
   useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(state));
+    if (typeof window !== 'undefined') {
+      localStorage.setItem("cart", JSON.stringify(state));
+    }
   }, [state]);
 
   return (
@@ -101,3 +101,4 @@ export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
 };
 
 export default CartContext;
+
