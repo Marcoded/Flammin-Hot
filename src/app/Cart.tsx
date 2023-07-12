@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useContext, useRef } from "react";
 import Image from "next/image";
 import CartContext from "../../contexts/CartContext";
@@ -50,9 +52,8 @@ const CartContent = () => {
   );
 
   const handleClick = () => {
-    window.my_modal_1.showModal()
-    deleteAll()
-
+    (window as any).my_modal_1.showModal();
+    deleteAll();
   }
 
   const renderCartItem = (item: ItemReference) => {
